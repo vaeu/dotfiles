@@ -1,0 +1,36 @@
+#              _   _
+#  _ __   __ _| |_| |__  ___
+# | '_ \ / _` | __| '_ \/ __|
+# | |_) | (_| | |_| | | \__ \
+# | .__/ \__,_|\__|_| |_|___/
+# |_|
+#
+MOCDir   = /home/${USER}/.config/moc
+MusicDir = /home/${USER}/music
+Keymap   = ${MOCDir}/keymap
+Theme    = ${MOCDir}/themes/mytheme
+Fastdir1 = ${MusicDir}/playlists
+
+#      _            _
+#   __| | _____   _(_) ___ ___  ___
+#  / _` |/ _ \ \ / / |/ __/ _ \/ __|
+# | (_| |  __/\ V /| | (_|  __/\__ \
+#  \__,_|\___| \_/ |_|\___\___||___/
+#
+SoundDriver = ALSA
+ALSADevice  = default
+AlsaMixer1  = Master
+
+#              _   _
+#   ___  _ __ | |_(_) ___  _ __  ___
+#  / _ \| '_ \| __| |/ _ \| '_ \/ __|
+# | (_) | |_) | |_| | (_) | | | \__ \
+#  \___/| .__/ \__|_|\___/|_| |_|___/
+#       |_|
+#
+FormatString      = "%(n:%n :)%(t:%t:)"
+PlaylistFullPaths = no
+RepeatSongChange  = yes
+ShowFormat        = no
+ShowTimePercent   = yes
+ShowTime          = yes

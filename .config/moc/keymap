@@ -1,0 +1,123 @@
+#  _ __ ___   ___ _ __  _   _
+# | '_ ` _ \ / _ \ '_ \| | | |
+# | | | | | |  __/ | | | |_| |
+# |_| |_| |_|\___|_| |_|\__,_|
+#
+quit_client        = q
+quit               = Q
+go                 = ENTER RIGHT l
+menu_down          = DOWN j
+menu_up            = UP k
+menu_page_down     = PAGE_DOWN ^d
+menu_page_up       = PAGE_UP ^u
+menu_first_item    = HOME g
+menu_last_item     = END G
+search_menu        = f /
+toggle_show_format = ^f
+toggle_menu        = TAB
+toggle_layout      = L
+help               = ?
+refresh            = ^r
+reload             = r
+
+#                  _ _
+#   __ _ _   _  __| (_) ___
+#  / _` | | | |/ _` | |/ _ \
+# | (_| | |_| | (_| | | (_) |
+#  \__,_|\__,_|\__,_|_|\___/
+#
+seek_forward_fast  = ]
+seek_backward_fast = [
+pause              = p SPACE
+stop               = s
+next               = n
+previous           = b
+toggle_shuffle     = S
+toggle_repeat      = R
+toggle_auto_next   = X
+toggle_mixer       = x
+go_url             = o
+
+#             _
+# __   _____ | |_   _ _ __ ___   ___
+# \ \ / / _ \| | | | | '_ ` _ \ / _ \
+#  \ V / (_) | | |_| | | | | | |  __/
+#   \_/ \___/|_|\__,_|_| |_| |_|\___|
+#
+volume_down_1 = <
+volume_up_1   = >
+volume_down_5 = ,
+volume_up_5   = .
+volume_10     = M-1
+volume_20     = M-2
+volume_30     = M-3
+volume_40     = M-4
+volume_50     = M-5
+volume_60     = M-6
+volume_70     = M-7
+volume_80     = M-8
+volume_90     = M-9
+
+#                    _             _   _
+#  _ __   __ ___   _(_) __ _  __ _| |_(_) ___  _ __
+# | '_ \ / _` \ \ / / |/ _` |/ _` | __| |/ _ \| '_ \
+# | | | | (_| |\ V /| | (_| | (_| | |_| | (_) | | | |
+# |_| |_|\__,_| \_/ |_|\__, |\__,_|\__|_|\___/|_| |_|
+#                      |___/
+#
+go_to_a_directory     = i
+go_to_music_directory = m
+go_to_fast_dir1       = !
+go_to_fast_dir2       = @
+go_to_fast_dir3       = #
+go_to_fast_dir4       = $
+go_to_fast_dir5       = %
+go_to_fast_dir6       = ^
+go_to_fast_dir7       = &
+go_to_fast_dir8       = *
+go_to_fast_dir9       = (
+go_to_fast_dir10      = )
+go_to_playing_file    = ^p
+go_up                 = LEFT h
+
+#        _             _ _     _
+#  _ __ | | __ _ _   _| (_)___| |_
+# | '_ \| |/ _` | | | | | / __| __|
+# | |_) | | (_| | |_| | | \__ \ |_
+# | .__/|_|\__,_|\__, |_|_|___/\__|
+# |_|            |___/
+#
+add_file             = a
+add_directory        = A
+delete_from_playlist = d
+playlist_full_paths  = P
+plist_move_up        = u
+# plist_move_down    = j
+save_playlist        = V
+remove_dead_entries  = Y
+clear_playlist       = C
+enqueue_file         = z
+clear_queue          = Z
+
+#  _       _                      _   _
+# (_)_ __ | |_ ___ _ __ __ _  ___| |_(_) ___  _ __
+# | | '_ \| __/ _ \ '__/ _` |/ __| __| |/ _ \| '_ \
+# | | | | | ||  __/ | | (_| | (__| |_| | (_) | | | |
+# |_|_| |_|\__\___|_|  \__,_|\___|\__|_|\___/|_| |_|
+#
+delete_to_start = ^u
+delete_to_end   = ^M
+cancel          = ^x ESCAPE
+hide_message    = M
+
+#  _____ ___      __         _
+# | ____/ _ \    / / __ ___ (_)_  _____ _ __
+# |  _|| | | |  / / '_ ` _ \| \ \/ / _ \ '__|
+# | |__| |_| | / /| | | | | | |>  <  __/ |
+# |_____\__\_\/_/ |_| |_| |_|_/_/\_\___|_|
+#
+toggle_make_mono  = J
+toggle_equalizer  = E
+equalizer_refresh = e
+equalizer_prev    = K
+equalizer_next    = ^k
