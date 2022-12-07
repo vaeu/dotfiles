@@ -1,0 +1,22 @@
+[global]
+    follow          = mouse
+    width           = 300
+    origin          = top-right
+    offset          = 20x40
+    frame_width     = 4
+    separator_color = auto
+    font            = "RobotoMono Nerd Font Regular 10"
+    format          = "<b>%s</b>\n<i>%b</i>"
+    icon_position   = left
+    max_icon_size   = 13
+    icon_path       = /usr/share/icons/Adwaita/16x16/legacy/
+    corner_radius   = 4
+
+[urgency_normal]
+    background      = "#363B4E"  # grey
+    frame_color     = "#DBD8E3"  # light grey
+
+[urgency_critical]
+    background      = "#9D0B28"  # red
+    frame_color     = "#FF004D"  # light red
+    timeout         = 15
