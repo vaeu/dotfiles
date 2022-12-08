@@ -1,0 +1,6 @@
+# vim: filetype=muttrc
+#
+# ignore all headers
+ignore *
+# show the following headers
+unignore date subject from to cc

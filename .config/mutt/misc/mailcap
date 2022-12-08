@@ -1,0 +1,6 @@
+text/plain; $EDITOR %s;
+text/html; $EDITOR %s;
+image/jpeg; sxiv -a %s;
+image/png; sxiv -a %s;
+application/pdf; zathura %s;
+application/pgp-keys; gpg2 --import '%s'; copiousoutput;

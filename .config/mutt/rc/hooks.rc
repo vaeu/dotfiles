@@ -1,0 +1,4 @@
+# vim: filetype=muttrc
+#
+# automatically encrypt all mail to these addresses
+send-hook '~t rms@gnu.org' set crypt_auto_encrypt = yes

@@ -1,0 +1,27 @@
+# vim: filetype=muttrc
+#
+# white black green magenta blue cyan yellow red default
+# none bold reverse standout underline
+#
+color sidebar_divider   none     default default
+color sidebar_flagged   none     red     default
+color sidebar_highlight bold     white   default
+color sidebar_indicator bold     yellow  default
+color sidebar_ordinary  none     default default
+color sidebar_unread    bold     green   default
+
+color index             bold     green   default '~N'
+color index             bold     magenta default '~T'
+color indicator         bold     yellow  default
+
+color body              bold     green   default 'https?://[^ ()]+'
+color body              bold     green   default '^(gpg: )?Good signature .*'
+color body              bold     green   default 'created: [A-Z].*'
+color body              bold     red     default '^gpg: BAD signature .*'
+color attachment        bold     yellow  default
+color hdrdefault        bold     default default
+color quoted            green    default
+color search            standout magenta default
+color signature         bold     default default
+
+color status            bold     default black

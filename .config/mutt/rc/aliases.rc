@@ -1,0 +1,3 @@
+# vim: filetype=muttrc
+#
+alias rms rms@gnu.org

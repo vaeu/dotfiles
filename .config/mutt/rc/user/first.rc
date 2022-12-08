@@ -1,0 +1,28 @@
+# vim: filetype=muttrc
+#
+set folder    = "~/.local/share/mail/mutt/first"
+set realname  = "first"
+set from      = "first@example.com"
+
+set sendmail  = "/usr/bin/msmtp -a first"
+set spoolfile = "+INBOX"
+set record    = "+Sent"
+set postponed = "+Drafts"
+set trash     = "+Trash"
+
+unmailboxes *
+named-mailboxes first+inbox =INBOX first+sent =Sent first+spam =Spam first+trash =Trash
+
+# do not use any custom signature
+unset signature
+
+#   __ _ _ __  _   _ _ __   __ _
+#  / _` | '_ \| | | | '_ \ / _` |
+# | (_| | | | | |_| | |_) | (_| |
+#  \__, |_| |_|\__,_| .__/ \__, |
+#  |___/            |_|    |___/
+#
+# encrypt messages using this key
+set pgp_default_key = 0x0000000000000000
+# sign messages using this key
+set pgp_sign_as     = 0x0000000000000000

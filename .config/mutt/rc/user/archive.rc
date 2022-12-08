@@ -1,0 +1,22 @@
+# vim: filetype=muttrc
+#
+set folder    = "~/.local/share/mail/mutt/archive"
+set realname  = "ARCHIVE"
+set from      = "ARCHIVE"
+
+set sendmail  = "ARCHIVE"
+set spoolfile = "+third/INBOX"
+
+#                  _ _ _
+#  _ __ ___   __ _(_) | |__   _____  _____  ___
+# | '_ ` _ \ / _` | | | '_ \ / _ \ \/ / _ \/ __|
+# | | | | | | (_| | | | |_) | (_) >  <  __/\__ \
+# |_| |_| |_|\__,_|_|_|_.__/ \___/_/\_\___||___/
+#
+unmailboxes *
+mailboxes =third/INBOX
+named-mailboxes arch+third+inbox =third/INBOX
+mailboxes =second/INBOX =second/Sent
+named-mailboxes arch+second+inbox =second/INBOX arch+second+sent =second/Sent
+mailboxes =first/INBOX =first/Sent =first/Spam =first/Trash
+named-mailboxes arch+first+inbox =first/INBOX arch+first+sent =first/Sent arch+first+spam =first/Spam arch+first+trash =first/Trash

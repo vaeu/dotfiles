@@ -1,0 +1,44 @@
+# vim: filetype=muttrc
+#      _     _      _
+#  ___(_) __| | ___| |__   __ _ _ __
+# / __| |/ _` |/ _ \ '_ \ / _` | '__|
+# \__ \ | (_| |  __/ |_) | (_| | |
+# |___/_|\__,_|\___|_.__/ \__,_|_|
+#
+set sidebar_divider_char = '|'
+set sidebar_format       = "%D%?F? [%F]?%* %?N?%N/?%?S?%S?"
+set sidebar_short_path
+set sidebar_visible
+set sidebar_width        = 25
+
+#      _       _
+#   __| | __ _| |_ ___
+#  / _` |/ _` | __/ _ \
+# | (_| | (_| | ||  __/
+#  \__,_|\__,_|\__\___|
+#
+set date_format  = "%Y-%m-%d %I:%M %p"
+set index_format = "%2C %Z %?X?A& ? %D | %-15.15F | %s (%-4.4c)"
+
+#      _        _               _
+#  ___| |_ __ _| |_ _   _ ___  | |__   __ _ _ __
+# / __| __/ _` | __| | | / __| | '_ \ / _` | '__|
+# \__ \ || (_| | |_| |_| \__ \ | |_) | (_| | |
+# |___/\__\__,_|\__|\__,_|___/ |_.__/ \__,_|_|
+#
+# https://neomutt.org/guide/reference#status-format
+#
+set status_format = "%D [msgs:%?M?%M/?%m%?n? new:%n?%?o? old:%o?%?d? del:%d?%?F? flag:%F?%?t? tag:%t?%?p? post:%p?%?b? inc:%b?%?l? %l?] %> [F1:frst|F2:scnd|F3:thrd|F9:arch]"
+
+#        _   _
+#   ___ | |_| |__   ___ _ __
+#  / _ \| __| '_ \ / _ \ '__|
+# | (_) | |_| | | |  __/ |
+#  \___/ \__|_| |_|\___|_|
+#
+# extensive sidebar features support
+hdr_order From Date: From: To: Cc: Subject:
+set mail_check_stats = yes
+set markers          = no
+set new_mail_command = "notify-send -i mail-message-new 'mutt' 'new mail available!'"
+set sort             = reverse-date

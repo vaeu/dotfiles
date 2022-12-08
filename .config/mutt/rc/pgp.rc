@@ -1,0 +1,10 @@
+# vim: filetype=muttrc
+#
+# use GPGME library in lieu of traditional methods
+set crypt_use_gpgme  = yes
+# PGP-encrypted messages will be encrypted back
+set pgp_self_encrypt = yes
+# automatically enable/disable PGP encryption/signing
+set crypt_auto_pgp   = yes
+# always sign outgoing messages
+set crypt_auto_sign  = yes
