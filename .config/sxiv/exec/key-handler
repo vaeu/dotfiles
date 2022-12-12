@@ -1,0 +1,17 @@
+#!/bin/sh
+# Press Ctrl+X to enter the command mode.
+rotate() {
+  tr '\n' '\0' | xargs -0 realpath | sort | uniq |
+    while read -r file; do
+      case "$(file -b -i "$file")" in
+        image/jpeg*)
+          jpegtran -rotate "$1" -copy all -outfile "$file" "$file"
+          ;;
+        *) mogrify -rotate "$1" "$file" ;;
+      esac
+    done
+}
+case "$1" in
+  "comma")  rotate 270 ;;
+  "period") rotate 90  ;;
+esac
