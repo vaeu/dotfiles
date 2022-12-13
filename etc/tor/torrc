@@ -1,0 +1,22 @@
+# exclude nodes from the following countries
+ExcludeNodes {ru},{ua},{by},{kz},{cn}
+ExcludeExitNodes {ru},{ua},{by},{kz},{cn},{ca},{nz},{gb},{us},{au}
+
+# use libera’s hidden service for IRC
+MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
+
+# do not scrub sensitive info from log messages
+SafeLogging 0
+
+# comment out if Tor was not compiled with libseccomp support
+Sandbox 1
+
+# connect to the Tor network through intermediate relays
+UseBridges 1
+# use obfs4 pluggable transport proxy
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+
+# list of obfs4 bridges (one hundred bridges and counting)
+Bridge obfs4 [...]
+Bridge obfs4 [...]
+[...]
