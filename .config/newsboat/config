@@ -1,0 +1,19 @@
+include "~/.config/newsboat/bindings"
+include "~/.config/newsboat/colors"
+include "~/.config/newsboat/ignore"
+
+auto-reload yes
+browser boat.sh
+confirm-exit yes
+confirm-mark-all-feeds-read no
+confirm-mark-feed-read no
+download-retries 4
+keep-articles-days 5
+macro o open-in-browser
+notify-format "%f new feeds available (%n new articles)"
+notify-program boatify.sh
+proxy 127.0.0.1:9050
+proxy-type socks5h
+reload-time 60
+use-proxy yes
+user-agent "Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0"

@@ -1,0 +1,3 @@
+ignore-mode "display"
+# suppress internal server errors of rss-bridge software
+ignore-article "*" "title =~ \"^Bridge (returned error|encountered an unexpected)\""
